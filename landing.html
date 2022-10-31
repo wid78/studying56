@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+        font-family: 'Oswald', sans-serif;
+        
+        }
+        .logo{
+            display: flex;
+            color: black;
+            font-size: 36px;
+            text-align: center;
+            padding-left: 80px;
+            padding-top: 28px;
+        }
+        .menu_ul{
+            display: flex;
+            flex-flow: row;
+            justify-content: flex-end;
+            color: black;
+            list-style: none;
+            top: 37px;
+            right: 80px;
+            
+        }
+        li{
+            font-size: 24px;
+            margin-right:46px;
+        }
+        .header{
+            position: absolute;
+            width: 1440px;
+            height: 110px;
+            background: #FFFFFF;
+        }
+        .line{
+            border-bottom: 5px solid #817070;
+            position: absolute;
+            width: 80px;
+            height: 10px;
+            left: 687px;
+            top: 473px;
+
+            background: #817070;
+        }
+        .img_1{
+            display: flex;
+            align-items:center;
+            position: absolute;
+            width: 1440px;
+            height: 622px;
+            left: 0px;
+            top: 111px;
+        }
+        .text{
+            position: absolute;
+            width: 399px;
+            height: 89px;
+            left: 520px;
+            top: 266px;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 89px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .img_2{
+            position: absolute;
+            width: 600px;
+            height: 400px;
+            left: 80px;
+            top: 173px;
+        }
+        .text_story{
+            width: 597px;
+            height: 180px;
+            padding-top: 283px;
+            padding-left: 720px;
+            font-size:20px;
+            color:black;
+        }
+        .name_story{
+            font-size:36px;
+            color:black;
+            position: absolute;
+            width: 91px;
+            height: 53px;
+            left: 674px;
+            top: 60px;
+        }
+        .name_blog{
+            font-size:36px;
+            color:black;
+            position: absolute;
+            width: 91px;
+            height: 53px;
+            left: 674px;
+            top: 60px;
+        }
+        .story{
+            position: absolute;
+            width: 1440px;
+            height: 632px;
+            background: #FFFFFF;
+            top:733px;
+        }
+        .blog{
+            position: absolute;
+            width: 1440px;
+            height: 711px;
+            top: 1365px;
+            background: #EFEFEF;
+        }
+        .frame_1{
+            position: absolute;
+            width: 365px;
+            height: 474px;
+            left: 102px;
+            top: 172px;
+            background: #FFFFFF;
+        }
+        .frame_2{
+            position:absolute;
+            display: flex;
+            width: 365px;
+            height: 474px;
+            top:172px;
+            left: 537px;
+            background: #FFFFFF;
+        }
+        .frame_3{
+            position:absolute;
+            display: flex;
+            width: 365px;
+            height: 474px;
+            top:172px;
+            left:972px;
+            background: #FFFFFF;
+        }
+        .img_3,.img_4,.img_5{
+            width: 325px;
+            height: 216px;
+            padding:20px;
+            padding-top:80px;
+        }
+        .logo_1{
+            position: absolute;
+            
+            left: 20px;
+            top: 20px;
+
+            
+            font-size: 24px;
+            text-align: center;
+
+            color: #000000;
+
+        }
+
+        .text_1{
+            position: absolute;
+            width: 325px;
+            height: 108px;
+            left: 20px;
+            top: 320px;
+
+            
+            font-size: 18px;
+            
+
+            color: #000000;
+
+        }
+        
+        .contact{
+            position: absolute;
+            width: 1440px;
+            height: 337px;
+            left: 0px;
+            top: 2076px;
+            background: #817070;
+        }
+        .logo_sub{
+            position: absolute;
+            left: 630px;
+            top: 60px;
+            font-size: 36px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .input{
+            box-sizing: border-box;
+            position: absolute;
+            width: 300px;
+            height: 55px;
+            left: 593px;
+            top: 141px;
+            background: #817070;
+            border: 3px solid #FFFFFF;
+        }
+        .email{
+            position: absolute;
+            left: 664px;
+            top: 150px;
+            font-size: 20px;
+            color:#FFFFFF;
+        }
+        button{
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 129px;
+            height: 55px;
+            left: 670px;
+            top: 224px;
+            font-size:20px;
+            background: #FFFFFF;
+            border: 3px solid #FFFFFF;
+            color:#817070;
+        }
+        button:hover{
+            background-color:#798e46;
+            color:#fff;
+        }
+        
+        .footer{
+            position: absolute;
+            width: 1440px;
+            height: 72px;
+            left: 0px;
+            top: 2414px;
+        }
+        .footer_text{
+            font-size: 20px;
+            color:#000000;
+            padding-left:647px;
+            padding-top:28px;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <header class = "header">
+        <div>
+            <p class = "logo" href = "#" ><b>COFFEE HOUSE</b></p>
+        </div>
+            
+            
+    <div>    
+        <ul class = "menu_ul">
+            <li>HOME</li>
+            <li>STORY</li>
+            <li>BLOG</li>
+            <li>SUBSCRIBE</li>
+        </ul>
+    </div>
+    
+    </header>
+
+    <div class = "home">
+        <img class = "img_1" src = "https://source.unsplash.com/vSuQJKZkt4U/1920x1080">
+        <div class = "text">
+            <b>TAKE YOUR TIME</b>
+        </div>
+        <div class = "line">
+            
+        </div>
+    </div> 
+
+    <div class = "story">
+        <img class = "img_2" src = "https://source.unsplash.com/X4RJG4aNi8o/1920x1080">
+        <p class = "text_story"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.</b></p>
+        <div class = "name_story"><b>STORY</b></div>
+    </div>
+
+    <div class = "blog">
+        <p><b class = "name_blog">BLOG</b></p>
+        <ul class = cards>
+            <li><div class = "frame_1">
+                <b class = logo_1>Daily Coffee News</b>
+                <img class = "img_3" src = "https://source.unsplash.com/TYIzeCiZ_60/1920x1080">
+                <p class = text_1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+            </div></li>
+            <li><div class = "frame_2">
+                <b class = logo_1>Dutch Coffee Chains</b>
+                <img class = "img_4" src = https://source.unsplash.com/CSQQ6_T0sks/1920x1080>
+                <p class = text_1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+            </div></li>
+            <li><div class = "frame_3">
+                <b class = logo_1>Start Up In Minneapolis</b>
+                <img class = "img_5" src = "https://source.unsplash.com/9rTEwV_G0Do/1920x1080">
+                <p class = text_1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+            </div></li>
+        </ul>
+    </div>
+    <div class = "contact">
+        <b class = "logo_sub">SUBSCRIBE</b>
+        <input type="text" class="input" name="input">
+        <p class = email>enter your email</p>
+        <button type = button class = button><b>SUBMIT</b></button>>
+    </div>
+    <div class = footer>
+        <p class = footer_text>© COPYRIGHT 2021</p>
+    </div>
+</body>
+</html>
